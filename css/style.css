@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#header {
+  padding: 35px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+nav {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav select {
+  border: none;
+  font-size: 16px;
+  color: #4e5a65;
+}
+nav a {
+  font-size: 16px;
+  color: #4e5a65;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header-action button {
+  width: 169px;
+  height: 44px;
+  color: #794cff;
+  background: rgba(236, 229, 255, 1);
+  font-size: 16px;
+}
+
+/* ? team*/
+
+#team {
+  padding: 30px 0 60px;
+}
+
+.team {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+.team-save {
+  display: flex;
+  justify-content: center;
+}
+
+.team-save a {
+  background-color: rgb(138, 209, 62);
+  color: #fff;
+  width: 115px;
+  height: 32px;
+  border-radius: 25px;
+  line-height: 33px;
+  z-index: 99;
+}
+
+.team-save .team-get {
+  margin-left: -15px;
+  background-color: rgba(242, 249, 235, 1);
+  width: 200px;
+  height: 32px;
+  line-height: 33px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.team h1 {
+  font-size: 60px;
+  width: 719px;
+}
+
+.team p {
+  width: 505px;
+  height: 48px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5a65;
+}
+.team-submit {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.team-submit input {
+  width: 319px;
+  height: 52px;
+  border-color: #00000041;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+
+.team-submit button {
+  width: 164px;
+  height: 55px;
+  background: rgba(121, 76, 255, 1);
+  color: #fff;
+  border: none;
+}
+
+.team img {
+  width: 920px;
+  height: 654.29px;
+  top: 592px;
+  left: 260px;
+}
+
+.team-logo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-logo p {
+  color: #000000a6;
+}
+
+.team-logo p span {
+  color: #000000a6;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*? TIMELINE*/
+
+#timeline {
+  background: #fbfafe;
+}
+
+.timeline {
+  display: flex;
+  padding: 70px 0;
+  gap: 155px;
+}
+
+.timeline-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-box {
+  display: flex;
+
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+  padding: 30px;
+  border-bottom: 0.3px solid #6d71767b;
+}
+
+.time-box:hover {
+  background: #f6f3fc;
+  border-left: 6px solid rgb(133, 7, 179);
+  border-bottom: none;
+}
+
+.time-box p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*? work */
+
+.container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.work-block {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 65px;
+}
+.work h4 {
+  padding: 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+.work p {
+  width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 100px;
+}
+
+/*?everyday*/
+
+#everyday {
+  background: #fbf3fd;
+}
+.everyday {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.everyday img {
+  margin-left: 60px;
+  width: 597px;
+  height: 405px;
+  top: 2921px;
+  left: 668px;
+}
+.day-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.day-box h2 {
+  width: 400px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.day-box p {
+  width: 460px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/*? customers */
+
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.customers h2 {
+  width: 394px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+.customers p {
+  width: 543px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+.icons1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icons1 img {
+  width: 48px;
+  height: 48px;
+  top: 3810px;
+  left: 260px;
+}
+.icons1 div h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.icons1 div p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+.icons {
+  padding: 80px 60px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icons1:hover {
+  background: #f6f3fc;
+  border-top: 3.5px solid rgb(14, 1, 18);
+  border-bottom: none;
+  padding-top: 12px;
+}
+
+#manager {
+  padding: 90px 0;
+}
+.manager {
+  margin-left: 40px;
+  width: 1110px;
+  height: 224px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 16px;
+  background: #6a5ef3;
+  color: #fff;
+}
+.manager h2 {
+  width: 423px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+
+.img-box {
+  margin: 20px;
+}
+
+#Company {
+  padding: 120px 80px 140px;
+  background: #1d2830;
+}
+.Company {
+  display: flex;
+
+  justify-content: space-between;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  gap: 15px;
+}
+.block a {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 16px;
+  text-align: left;
+  color: #fff;
+}
+.block div img {
+  display: flex;
+  flex-direction: column;
+}
+#footer {
+  background: #1d2830;
+  border-top: 0.5px solid #f6f3fc94;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+.footer a {
+  padding-right: 750px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #d9dbe1;
+}
+.footer span {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #2f3d47;
+  color: #fbf3fd;
+}
